@@ -4,12 +4,13 @@ import React from 'react';
 const Reviews = () => {
     return (
         <div>
-            <h2>liza</h2>
+        <h1>Customer Reviews</h1>    
         </div>
     );
 };
 
 export default Reviews;
+
 
 
 

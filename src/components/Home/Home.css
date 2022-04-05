@@ -1,0 +1,30 @@
+
+.home-title{
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+}
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}  
+.home-container h2{
+    color: rgb(84, 60, 238);
+    font-size: 35px;
+}
+.home-container p{
+    color: rgb(122, 28, 156);
+}
+.cart-container img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+

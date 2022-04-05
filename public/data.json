@@ -1,0 +1,38 @@
+[
+    {
+      "text": "This is better for me",
+      "picture": "https://i.ibb.co/WvhnPF1/pic1.jpg",
+      "name": "Eliza Rush",
+      "rating": "8"
+    },
+    {
+      "text": "This is best for me",
+      "picture": "https://i.ibb.co/4tbtD95/pic2.jpg",
+      "name": "Banks Pacheco",
+      "rating": "4"
+    },
+    {
+      "text": "I like this",
+      "picture": "https://i.ibb.co/WvRfFTt/pic3.jpg",
+      "name": "Stanton Alston",
+      "rating": "6"
+    },
+    {
+      "text": "Nice product",
+      "picture": "https://i.ibb.co/hZQ0SK9/pic4.jpg",
+      "name": "Robbie Gray",
+      "rating": "5"
+    },
+    {
+      "text": "Really nice",
+      "picture": "https://i.ibb.co/xqt2Mrs/pic5.jpg",
+      "name": "Deloris Valentine",
+      "rating": "9"
+    },
+    {
+      "text": "This is my passion",
+      "picture": "https://i.ibb.co/qMtjPQM/pic6.jpg",
+      "name": "Dale Wilson",
+      "rating": "7"
+    }
+  ]
