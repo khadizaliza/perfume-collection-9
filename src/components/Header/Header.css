@@ -1,0 +1,22 @@
+
+.header{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 25px;
+    color: blue;
+}
+.navbar a:hover{
+    color: orangered;
+}
+
+
+
+
+
+
+
