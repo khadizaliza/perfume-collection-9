@@ -19,6 +19,9 @@ const Reviews = () => {
         }
 
         </div>
+        <div className='review-btn'>
+            <button>See all reviews</button>
+        </div>
         
         </div>
     );

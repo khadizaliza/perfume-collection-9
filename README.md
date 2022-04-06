@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# How React work
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was about perfume collection.Where one can get branded perfume very easely. Here the live link: (https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

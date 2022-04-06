@@ -1,9 +1,8 @@
 
 import React from 'react';
-import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
-import SpeacialChart from '../SpeacialChart/SpeacialChart';
+import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
 
-const Dashboard = () => {
+const SpeacialChart = () => {
     const data = [
         {
             month: "Mar",
@@ -42,27 +41,27 @@ const Dashboard = () => {
             revenue: 61000,
         }
     ]
+   
     return (
-        <div>
-            <LineChart width={800} height={500}  data={data}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <Line dataKey={'month'}></Line>
-            <Line dataKey={'investment'}></Line>
-            <Line dataKey={'revenue'}></Line>
-            <XAxis dataKey={'sell'}></XAxis>
-            <Tooltip></Tooltip>
-            <YAxis></YAxis>
-            
-        <></></LineChart>
-        <SpeacialChart></SpeacialChart>
-        </div>
-            
-      
         
+            
+        <BarChart width={800} height={300} data={data}>
+            <CartesianGrid strokeDasharray="3 3" />
+          <Bar dataKey={'month'} fill="#8884d8" />
+          <Bar dataKey={'investment'} fill="#8884d8" />
+          <XAxis dataKey={'sell'}></XAxis>
+          <Bar dataKey={'revenue'} fill="#8884d8" />
+          <Tooltip></Tooltip>
+            <YAxis></YAxis> 
+        </BarChart>
+      
     );
 };
 
-export default Dashboard;
+export default SpeacialChart;
+
+
+
 
 
 

@@ -9,6 +9,7 @@ import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import Reviews from './components/Reviews/Reviews';
 import NotFound from './components/NotFound/NotFound';
+import SpeacialChart from './components/SpeacialChart/SpeacialChart';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      
     </div>
   );
 }

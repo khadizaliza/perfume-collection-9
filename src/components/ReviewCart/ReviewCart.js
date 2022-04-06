@@ -12,6 +12,7 @@ const ReviewCart = (props) => {
             <h4>Rating: {rating}</h4>
             
         </div>
+        
     );
 };
 
